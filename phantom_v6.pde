@@ -128,8 +128,7 @@ class Car {
     //sound condition
     if (vol>random(0.09,0.29)) {
       println("Boooooooooooooow");
-      //speed = speed*p*-5;
-      //ypos = ypos - p* speed;
+     
       ypos = height/2;
       xpos= random(width/2 - width/6+random(10,80), width/2 + width/6- random(10,80));
       speed = random(0, .3);  
@@ -195,8 +194,7 @@ class HCar {
     //sound condition
     if (vol>random(0.09,0.29)) {
       println(vol,"Boooooooooooooow");
-      //speed = speed*p*-5;
-      //ypos = ypos - p* speed;
+   
       xpos = width/2;
       HCarwidth= HCarwidth + random(-10,30);
       ypos=int(random(height/2 - height/6+10, height/2 + height/6-10));
